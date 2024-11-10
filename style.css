@@ -2,21 +2,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
     text-align: center;
+    margin: auto;
   }
 
-p {
-    font-weight: 600;
+.Description {
+    font-weight: 400;
 }
 
 ol {
     text-align: left;
-}
-
-.center {
-    list-style-position: inside;
-    text-align: center;
+    display: inline-block;
+    padding: auto;
+    border: 100px;   
 }
 
 ul {
-    list-style-position: inside;
+    text-align: left;
+    display: inline-block;
+    padding: auto;
+    border: 100px; 
 }
